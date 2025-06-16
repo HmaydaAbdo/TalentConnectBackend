@@ -6,7 +6,7 @@ spring:
   application:
     name: talentConnect
   datasource:
-    url: jdbc:mysql://tramway.proxy.rlwy.net:10138/TalentConnect
+    url: jdbc:mysql://mysql.railway.internal:3306/TalentConnect
     username: root
     password: 12345
     driver-class-name: com.mysql.cj.jdbc.Driver
