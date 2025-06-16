@@ -6,7 +6,10 @@ spring:
   application:
     name: talentConnect
   datasource:
-    url: ${{ MySQL.MYSQL_URL }}
+    url: jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/${MYSQLDATABASE}
+    username: ${MYSQLUSER}
+    password: ${MYSQLPASSWORD}
+
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
