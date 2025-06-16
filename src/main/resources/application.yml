@@ -6,9 +6,9 @@ spring:
   application:
     name: talentConnect
   datasource:
-    url: jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/railway
-    username: ${MYSQLUSER}
-    password: ${MYSQLPASSWORD}
+    url: jdbc:mysql://root:aGJmZgeZbdhjojgUmZjfvpFCQnHSiHLE@yamabiko.proxy.rlwy.net:29260/railway
+    username: root
+    password: aGJmZgeZbdhjojgUmZjfvpFCQnHSiHLE
 
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
