@@ -6,7 +6,7 @@ spring:
   application:
     name: talentConnect
   datasource:
-    url: jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/${MYSQLDATABASE}
+    url: jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/railway
     username: ${MYSQLUSER}
     password: ${MYSQLPASSWORD}
 
