@@ -6,9 +6,7 @@ spring:
   application:
     name: talentConnect
   datasource:
-    url: jdbc:mysql://mysql.railway.internal:3306/TalentConnect
-    username: root
-    password: 12345
+    url: ${{ MySQL.MYSQL_URL }}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
